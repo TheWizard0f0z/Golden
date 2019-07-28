@@ -1,2 +1,63 @@
 /*Variables*/
+/*Global*/
+body {
+  margin: 0;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.section-title {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 75px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.section-subtitle {
+  color: #777777;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+}
+
+.inner-title {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -0.45px;
+}
+
+.inner-description {
+  color: #777777;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+}
+
+.btn {
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  padding: 25px 51px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: #9a7801;
+}
 /*# sourceMappingURL=style.css.map */
