@@ -180,3 +180,24 @@ section {
 
 /*Portfolio*/
 
+.portfolio {
+    background-color: #f7f7f7;
+}
+
+.portfolio-image {
+    text-align: center;
+}
+
+.portfolio-description {
+    background-color: $color-one;
+    width: 291px;
+    margin: 0 auto;
+    .inner-title {
+        line-height: normal;
+        padding-top: 30px;
+    }
+    .section-subtitle {
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+    }
+}

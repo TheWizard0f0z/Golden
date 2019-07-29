@@ -172,4 +172,27 @@ section {
 }
 
 /*Portfolio*/
+.portfolio {
+  background-color: #f7f7f7;
+}
+
+.portfolio-image {
+  text-align: center;
+}
+
+.portfolio-description {
+  background-color: #ffffff;
+  width: 291px;
+  margin: 0 auto;
+}
+
+.portfolio-description .inner-title {
+  line-height: normal;
+  padding-top: 30px;
+}
+
+.portfolio-description .section-subtitle {
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
