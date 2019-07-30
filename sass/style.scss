@@ -252,3 +252,58 @@ section {
         color: $color-two;
     }
 }
+
+
+/* Media */
+
+/* Most of the Smartphones Mobiles (Portrait)
+@media (min-width: 320px) and (max-width: 480px) {} */
+
+/* Low Resolution Tablets, Mobiles (Landscape)
+@media (min-width: 481px) and (max-width: 767px) {} */
+
+/* Tablets, Ipads (portrait)
+@media (min-width: 768px) and (max-width: 1024px) {} */
+
+/* Tablets, Ipads (landscape)
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {} */
+
+
+@media (max-width: 767px) {
+    .navigation {
+        padding-left: 10px;
+        display: block;
+    }
+    .navigation ul {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .splash-inner .splash-subtitle {
+        font-size: 20px;
+    }
+    .splash-inner .splash-title {
+        font-size: 37px;
+    }
+    .splash-inner .btn {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navigation ul {
+        padding-left: 15px;
+    }
+    .navigation ul li {
+        margin-right: 15px;
+    }
+    .footer-inner {
+        flex-direction: column-reverse;
+    }
+    .footer-inner .paragraph {
+        max-width: 100%;
+    }
+    .footer-inner .social-links {
+        max-width: 100%;
+    }
+}
