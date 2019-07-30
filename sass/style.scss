@@ -272,6 +272,7 @@ section {
 @media (max-width: 767px) {
     .navigation {
         padding-left: 10px;
+        padding-top: 10px;
         display: block;
     }
     .navigation ul {
@@ -305,5 +306,18 @@ section {
     }
     .footer-inner .social-links {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .splash-inner .splash-subtitle {
+        font-size: 15px;
+    }
+    .splash-inner .splash-title {
+        font-size: 20px;
+    }
+    .splash-inner .btn {
+        font-size: 9px;
+        padding: 7px 15px;
     }
 }
